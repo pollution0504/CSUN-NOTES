@@ -14,6 +14,5 @@ public class Cons implements IList {
     // [3,0].addAmount(2): [5,2]
     public IList addAmount(int amount) {
         return new Cons(head + amount, tail.addAmount(amount));
-        
     }
 }
